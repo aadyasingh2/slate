@@ -16,7 +16,7 @@ function Landing() {
                         navigate('/login')
                     }}>Login</button>
                     <button className="btn-primary" onClick={() => {
-                        navigate('/signup')
+                        navigate('/login')
                     }}>Get started</button>
                 </div>
             </nav>
@@ -39,7 +39,7 @@ function Landing() {
 
                 <div className="hero-cta">
                     <button className="btn-hero-primary" onClick={() => {
-                        navigate('/signup')
+                        navigate('/login')
                     }}>Start studying →</button>
                     <button className="btn-hero-ghost" onClick={() => {
                         navigate('/login')
